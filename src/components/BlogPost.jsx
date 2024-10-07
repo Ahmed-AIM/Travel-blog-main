@@ -1,12 +1,10 @@
+import { faFacebookF, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/BlogPost.css';
-import BlogPostPage from './BlogPostPage';
-import CommentSection from './CommentSection';
 import CollapsableComments from './CollapsableComments';
-import { faFacebookF, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 const BlogPost = ({ post }) => {
   const navigate = useNavigate();

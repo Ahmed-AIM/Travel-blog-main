@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import BlogPost from './BlogPost';
-import '../styles/BlogPostPage.css';
 import { POSTS_API } from '../apiConfig';
-import CommentSection from './CommentSection';
+import '../styles/BlogPostPage.css';
+import BlogPost from './BlogPost';
 
 
 const BlogPostPage = () => {
